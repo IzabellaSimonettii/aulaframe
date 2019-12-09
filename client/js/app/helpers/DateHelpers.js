@@ -1,13 +1,15 @@
 class DateHelper {
+    // the methods in this class they are static that means they belong to the definition of the class 
 
-    dataParaTexto(data) {
+    static dataParaTexto(data) {
         return data.getDate()
             + '/' + (data.getMonth() + 1)
             + '/' + data.getFullYear();
     }
-    textoParaData(texto) {
+    static textoParaData(texto) {
 
-        return new Date(...texto.split('-').map((item,indice) => item - indice % 2));
+        return new Date(...texto.split('-').map((item, indice) => item - indice % 2));
 
     }
 }
+
