@@ -89,4 +89,4 @@ ex
    </td>
 </tfoot>
 
-// 
+// Reduce -> The operator just runs the array and returns one result 
