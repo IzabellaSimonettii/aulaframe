@@ -69,3 +69,6 @@ function multiply(multiplier, ...theArgs) {
 
 var arr = multiply(2, 1, 2, 3); 
 console.log(arr)
+
+
+Interpolation -> console.log(`A idade de ${nome} é ${idade}`);
