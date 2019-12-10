@@ -1,4 +1,5 @@
-        
+-- Some explanations of the code --   
+
         let data = new Date(this._inputData.value.replace(/-/g,',')); 
         if (indice == 1) { 
             return item -1;
