@@ -73,3 +73,20 @@ console.log(arr)
 
 
 Interpolation -> console.log(`A idade de ${nome} é ${idade}`);
+// () imidiatly invocation function expretion  IIFE 
+ex 
+<tfoot>
+    <td colspan="3"></td>
+    <td>
+      ${
+        (function() {
+
+            let total = 0;
+            model.negociacoes.forEach(n => total+= n.volume);
+            return total;
+      })()
+     }
+   </td>
+</tfoot>
+
+// 
