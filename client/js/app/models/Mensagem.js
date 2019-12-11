@@ -1,4 +1,4 @@
-class mensagem {
+class Mensagem {
 
     constructor(texto) {
         this._texto = texto;
@@ -15,7 +15,8 @@ class mensagem {
     get texto() {
         return this._texto;
     }
-    set texto() {
+    
+    set texto(texto) {
         return this._texto = texto;
     }
 
